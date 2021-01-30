@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background: #FFFBF0;
+}
+/* navbar section */
+.logo img{
+    width: 291px;
+}
+.nav-link{
+    margin: 0px 10px;
+    color: rgb(51, 48, 48);
+    font-weight: 500;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#home{
+    padding: 30px 0px 100px 0;
+}
+#home .header-first{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FABE4C;
+    line-height: 80px;
+}
+#home h1{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+#home p{
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+#home .btn{
+    padding: 15px 30px;
+    background: #8FAA28;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#home .btn i{
+    margin-right: 10px;
+}
+
+
+
+/* women jacket section */
+#women-section{
+    padding: 100px 0 50px;
+}
+#women-section h1, #men-section h1{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 50px;
+}
+#women-section .card, #men-section .card{
+    border: 0;
+    padding: 20px;
+}
+#women-section .card-img, #men-section .card-img{
+    background: #F1F1F1;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#women-section .card-img img, #men-section .card-img img{
+    height: 293px;
+    padding: 40px;
+}
+#women-section .card-body h3, #men-section .card-body h3{
+    color: #363958;
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 20px;
+}
+#women-section .card-body p, #men-section .card-body- p{
+    color: #3E3E3E;
+}
+#women-section .card-footer, #men-section .card-footer{
+    background: transparent;
+    border: 0;
+}
+#women-section .card-footer .btn, #men-section .card-footer .btn{
+    padding: 10px 20px;
+    background: #8FAA28;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#women-section .card-footer .btn i, #men-section .card-footer .btn i{
+    margin-right: 10px;
+}
+#women-section .card-footer h4, #men-section .card-footer h4{
+    color: #FABE4C;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* support section */
+#support{
+    padding: 80px 0;
+}
+#support .support-list img{
+    width: 80px;
+}
+#support .support-list-content{
+    width: 75%;
+}
+#support .support-list-content h3{
+    color: #363958;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#support .support-list{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+/* responsive section */
+@media(max-width: 991px){
+    #support .col-lg-6{
+        margin: 50px 0;
+    }
+}
+
+@media(max-width: 991px){
+    #home h1, #home .header-first{
+        font-size: 36px;
+        line-height: 35px;
+    }
+}
+@media(max-width: 991px){
+    #women-section .card, #men-section .card{
+        margin: 20px 0;
+    }
+}
+@media(max-width: 767px){
+    #home .col-md-6{
+        margin: 20px 0;
+    }
+}
+@media(max-width: 767px){
+    h1{
+        font-size: 30px;
+    }
+}
